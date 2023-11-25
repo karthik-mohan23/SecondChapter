@@ -4,7 +4,7 @@ const Logo = () => {
   return (
     <div className="flex items-center   text-white  pt-2  rounded-lg ">
       <SparklesIcon className="w-6 h-6" />
-      <p className="font-semibold text-xl md:text-base">Second Chapter</p>
+      <p className="font-semibold text-xl md:text-lg">Second Chapter</p>
     </div>
   );
 };

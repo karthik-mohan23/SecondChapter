@@ -24,7 +24,7 @@ const links = [
 
 const NavLinks = () => {
   return (
-    <ul className="flex  flex-wrap gap-4 px-4 pb-2 md:px-0">
+    <ul className="flex  flex-wrap  gap-4 px-4 pb-2 md:px-0 ">
       {links.map((link) => {
         const IconComponent = link.icon;
         return (

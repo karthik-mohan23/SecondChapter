@@ -5,7 +5,7 @@ export default function BookListPage() {
   const books = getAllBooks();
 
   return (
-    <main className="min-h-screen">
+    <main className="">
       <BookList books={books} />
     </main>
   );

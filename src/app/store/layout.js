@@ -7,8 +7,8 @@ export const metadata = {
 
 export default function BookStoreLayout({ children }) {
   return (
-    <div className="bg-blue-100/50">
-      <div className="md:w-[90%] md:max-w-6xl md:mx-auto flex flex-col md:flex-row">
+    <div className="">
+      <div className="md:w-[99%] min-h-screen md:mx-auto flex flex-col md:flex-row">
         <Sidebar />
         {children}
       </div>
