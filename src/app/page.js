@@ -20,7 +20,7 @@ export default function Home() {
           <div className="mb-1">
             <Link
               href="/store"
-              className="bg-purple-700 px-4 py-2 rounded-xl hover:bg-purple-400 duration-300 hover:text-purple-950 ">
+              className="bg-purple-700 text-white px-4 py-2 rounded-xl hover:bg-purple-400 duration-300 hover:text-purple-950  ">
               Take me to the store
             </Link>
           </div>
